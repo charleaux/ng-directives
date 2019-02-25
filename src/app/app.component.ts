@@ -12,4 +12,6 @@ export class AppComponent {
   // evenNumbers = [2, 4];
   evenNumbers: Array<number> = this.numbers.filter(i => i % 2 === 0);
   onlyOdd = false;
+  value = 5;
+  dropdown = true;
 }
